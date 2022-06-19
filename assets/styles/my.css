@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+:root {
+    --primary-color: #F4694C;
+    --secondary-color: #FBC3B7;
+    --unit: 1rem;
+}
+body {
+    margin: 0;
+    font-family: "Raleway";
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h3, legend {
+    font-size: 40px;
+    margin: 34px 0;
+}
+fieldset {
+    border: 3px solid var(--primary-color);
+    text-align: center;
+}
+legend {
+    display: inline-block;
+    padding: 0px 25px;
+}
+p {
+    margin: 0;
+}
+h4 {
+    font-size: 30px;
+}
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 9px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+nav {
+    padding-left: 228px;
+    padding-right: 82px;
+    padding-bottom: 14px;
+}
+.d-f {
+    display: flex;
+}
+.d-f.g-76px {
+    gap: 76px;
+}
+.d-f.g-57px {
+    gap: 57px;
+}
+.d-f.g-260px {
+    gap: 260px;
+}
+.d-f.fd-column {
+    flex-direction: column;
+}
+.bgc-primary-color {
+    background-color: var(--primary-color);
+}
+.bgc-secondary-color {
+    background-color: var(--secondary-color);
+}
+.bgi-1 {
+    background-image: url("../images/Rectangle 840.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bgi-2 {
+    background-image: url("../images/Фон изначальный.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.m-t-175px {
+    margin-top: 175px;
+}
+.m-t-135px {
+    margin-top: 135px;
+}
+.m-t-52px {
+    margin-top: 52px;
+}
+.bdrs-9px {
+    border-radius: 9px;
+}
+.bdrs-16px {
+    border-radius: 16px;
+}
+.bdrs-4px {
+    border-radius: 4px;
+}
+.p-40px-20px {
+    padding: 20px 40px;
+}
+.p-22px-20px {
+    padding: 22px 20px;
+}
+.mr-31px {
+    margin-right: 31px;
+}
+.mt-84px {
+    margin-top: 84px;
+}
+.mt-76px {
+    margin-top: 76px;
+}
+.ai-flex-start {
+    align-items: flex-start;
+}
+.ai-center {
+    align-items: center;
+}
+.ml-21px {
+    margin-left: 21px;
+}
+.mb-52px {
+    margin-bottom: 82px;
+}
+.fz-24px {
+    font-size: 24px;
+}
+.fz-20px {
+    font-size: 20px;
+}
+.jc-cb {
+    justify-content: space-between;
+}
+.jc-c {
+    justify-content: center;
+}
+.c-white {
+    color: #fff;
+}
+.pt-303px {
+    padding-top: 303px;
+}
+.p-14px {
+    padding: 14px;
+}
+
