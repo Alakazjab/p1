@@ -3,6 +3,8 @@
     --primary-color: #F4694C;
     --secondary-color: #FBC3B7;
     --unit: 1rem;
+    --gold: #EA9459;
+
 }
 body {
     margin: 0;
@@ -17,9 +19,23 @@ h3, legend {
     font-size: 40px;
     margin: 34px 0;
 }
+h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
 fieldset {
     border: 3px solid var(--primary-color);
-    text-align: center;
+    align-items: center;
+}
+span {
+    width: 20px;
+    height: 20px;
+    color: #c4c4c4;
+    border-radius: 50%;
 }
 legend {
     display: inline-block;
@@ -53,6 +69,21 @@ nav {
 .d-f.g-57px {
     gap: 57px;
 }
+.d-f.g-8px {
+    gap: 8px;
+}
+.d-f.g-10px {
+    gap: 10px;
+}
+.d-f.g-4px {
+    gap: 4px;
+}
+.d-f.g-24px {
+    gap: 24px;
+}
+.d-f.g-48px {
+    gap: 48px;
+}
 .d-f.g-260px {
     gap: 260px;
 }
@@ -65,6 +96,9 @@ nav {
 .bgc-secondary-color {
     background-color: var(--secondary-color);
 }
+.bgc-white {
+    background-color: #fff;
+}
 .bgi-1 {
     background-image: url("../images/Rectangle 840.png");
     background-repeat: no-repeat;
@@ -73,6 +107,8 @@ nav {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 1431px;
+    height: 385px;
 }
 .bgi-2 {
     background-image: url("../images/Фон изначальный.png");
@@ -86,11 +122,17 @@ nav {
 .m-t-175px {
     margin-top: 175px;
 }
+.m-t-100px {
+    margin-top: 100px;
+}
 .m-t-135px {
     margin-top: 135px;
 }
 .m-t-52px {
     margin-top: 52px;
+}
+.m-8px-16px {
+    margin: 8px 16px;
 }
 .bdrs-9px {
     border-radius: 9px;
@@ -143,10 +185,77 @@ nav {
 .c-white {
     color: #fff;
 }
+.c-black {
+    color: #000;
+}
 .pt-303px {
     padding-top: 303px;
 }
 .p-14px {
     padding: 14px;
 }
-
+.w-40px {
+    width: 40px;
+}
+.h-40px {
+    height: 40px;
+}
+.w-18px {
+    width: 18px;
+}
+.h-18px {
+    height: 18px;
+}
+.container {
+    box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.05);
+    border-radius: 9px;
+}
+.containerp {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.c-999 {
+    color: #999999;
+}
+.p-24px-24px-15px {
+    padding: 24px 24px 15px;
+}
+.p-32px-0-78px-141px {
+    padding: 32px 0 78px 141px;
+}
+.p-35px-48px-63px-101px {
+    padding: 48px 101px 63px 35px;
+}
+.fz-12px {
+    font-size: 12px;
+}
+.c-gold {
+    color: var(--gold);
+}
+.w-170px {
+    width: 170px;
+}
+.pos-rel {
+    position: relative;
+}
+.pos-abs {
+    position: absolute;
+}
+.z-1 {
+    z-index: 1;
+}
+#1 {
+    width: 42px;
+    height: 48px;
+}
+.fz-20px {
+    font-size: 20px;
+}
+.m-t-153px {
+    margin-top: 153px;
+}
+.b {
+    border: 3px solid #F4694C;
+}
