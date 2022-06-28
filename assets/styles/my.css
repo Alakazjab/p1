@@ -321,3 +321,10 @@ nav {
     height: 17px;
     top: calc(100% - 17px);
 }
+.bxsh-10 {
+    box-shadow: 2px 3px 10px #6a6a6a;
+}
+.bdrs {
+    border-radius: 25px;
+    padding: 0 0 25px;
+}
